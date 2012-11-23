@@ -1,0 +1,5 @@
+E:\Project\TomochanTotalSolution\TomochanClass\bin\Release\Tomochan Library.dll
+E:\Project\TomochanTotalSolution\TomochanClass\bin\Release\Tomochan Library.pdb
+E:\Project\TomochanTotalSolution\TomochanClass\obj\Release\ResolveAssemblyReference.cache
+E:\Project\TomochanTotalSolution\TomochanClass\obj\Release\Tomochan Library.dll
+E:\Project\TomochanTotalSolution\TomochanClass\obj\Release\Tomochan Library.pdb

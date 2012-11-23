@@ -1,0 +1,10 @@
+E:\Project\TomochanTotalSolution\TomochanClass\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\TomochanTotalSolution\TomochanClass\bin\Debug\Tomochan Library.dll
+E:\Project\TomochanTotalSolution\TomochanClass\bin\Debug\Tomochan Library.pdb
+E:\Project\TomochanTotalSolution\TomochanClass\obj\Debug\Tomochan Library.dll
+E:\Project\TomochanTotalSolution\TomochanClass\obj\Debug\Tomochan Library.pdb
+F:\Project\BlogReport\BlogReport\TomochanClass\bin\Debug\Tomochan Library.dll
+F:\Project\BlogReport\BlogReport\TomochanClass\bin\Debug\Tomochan Library.pdb
+F:\Project\BlogReport\BlogReport\TomochanClass\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\BlogReport\BlogReport\TomochanClass\obj\Debug\Tomochan Library.dll
+F:\Project\BlogReport\BlogReport\TomochanClass\obj\Debug\Tomochan Library.pdb

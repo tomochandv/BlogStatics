@@ -1,0 +1,7 @@
+F:\Project\BlogReport\BlogReport\ReportBlog.Dac\bin\Debug\ReportBlog.Dac.dll
+F:\Project\BlogReport\BlogReport\ReportBlog.Dac\bin\Debug\ReportBlog.Dac.pdb
+F:\Project\BlogReport\BlogReport\ReportBlog.Dac\bin\Debug\Tomochan Library.dll
+F:\Project\BlogReport\BlogReport\ReportBlog.Dac\bin\Debug\Tomochan Library.pdb
+F:\Project\BlogReport\BlogReport\ReportBlog.Dac\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\BlogReport\BlogReport\ReportBlog.Dac\obj\Debug\ReportBlog.Dac.dll
+F:\Project\BlogReport\BlogReport\ReportBlog.Dac\obj\Debug\ReportBlog.Dac.pdb
