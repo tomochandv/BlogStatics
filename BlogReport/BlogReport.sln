@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportBlog.Web", "ReportBlog.Web\ReportBlog.Web.csproj", "{55F5C3A6-2115-4E19-A3DD-124F64CC60A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomochanClass", "TomochanClass\TomochanClass.csproj", "{70F2BA7B-4C2B-4632-9CCA-19937A157AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportBlog.Dac", "ReportBlog.Dac\ReportBlog.Dac.csproj", "{540D1BFA-FA1E-4821-A0F0-3A76D396E0EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F5C3A6-2115-4E19-A3DD-124F64CC60A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F5C3A6-2115-4E19-A3DD-124F64CC60A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F5C3A6-2115-4E19-A3DD-124F64CC60A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F5C3A6-2115-4E19-A3DD-124F64CC60A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F2BA7B-4C2B-4632-9CCA-19937A157AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F2BA7B-4C2B-4632-9CCA-19937A157AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F2BA7B-4C2B-4632-9CCA-19937A157AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F2BA7B-4C2B-4632-9CCA-19937A157AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540D1BFA-FA1E-4821-A0F0-3A76D396E0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540D1BFA-FA1E-4821-A0F0-3A76D396E0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540D1BFA-FA1E-4821-A0F0-3A76D396E0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540D1BFA-FA1E-4821-A0F0-3A76D396E0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

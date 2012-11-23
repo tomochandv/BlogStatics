@@ -1,0 +1,63 @@
+﻿<script type="text/javascript">
+    $(function () {
+        $.post("@Url.Action("MemberList","Home")", function(data){
+            $("#list").html(data);
+        });
+
+        $("#btnSave").click(function () {
+            var txtEmail = $("[name='txtEmail']").val();
+            var txtPassword = $("[name='txtPassword']").val();
+
+            if (txtEmail != "" && txtPassword != "") {
+                
+                $.post("@Url.Action("MemberInsert","Home")", { txtEmail: txtEmail, txtPassword: txtPassword }, function (data) {
+                    if(data == 0){
+                        alert("중복!");
+                    }
+                    else{
+                        alert("저장완료");
+                        $.post("@Url.Action("MemberList","Home")", function(data){
+                            $("#list").html(data);
+                        })
+                    } 
+                });
+            }
+            else {
+                alert('항목을 다 입력하세요.');
+            }
+        });
+    });
+
+    function fnDelete(idx){
+        $.post("@Url.Action("MemberDelete","Home")", { idx: idx }, function (data) {
+            if(data == 0){
+                alert("삭제실패!");
+            }
+            else{
+                alert("삭제완료");
+                $.post("@Url.Action("MemberList","Home")", function(data){
+                    $("#list").html(data);
+                })
+            } 
+        });
+    }
+</script>
+<div class="row">
+    <h1>Member</h1>
+</div>
+
+<div class="row">
+<form class="bs-docs-example">
+<fieldset>
+    <p>
+    이메일 :  <input type="email" class="input-large" name="txtEmail" />
+    비밀번호 : <input type="password" class="input-large" name="txtPassword" />
+    <input class="btn btn-medium btn-primary" id="btnSave" type="button" style="vertical-align:top;" value="저장">
+    </p>
+</fieldset>
+</form>
+</div>
+
+<div class="row" id="list">
+
+</div>
